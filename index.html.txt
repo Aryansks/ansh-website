@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ansh & Aryan Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+    .intro {
+      margin: 20px 0;
+      font-size: 18px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 250px;
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .card p {
+      margin: 0;
+      padding: 10px;
+      background: #eee;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Ansh & Aryan Website
+  </header>
+
+  <div class="intro">
+    <p>Hello, we are <b>Ansh Kumar</b> and <b>Aryan Singh</b>. Welcome to our personal website!</p>
+  </div>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="ansh1.jpg" alt="Ansh Kumar">
+      <p>Ansh Kumar</p>
+    </div>
+    <div class="card">
+      <img src="ansh2.jpg" alt="Ansh Kumar">
+      <p>Ansh Kumar</p>
+    </div>
+    <div class="card">
+      <img src="aryan.jpg" alt="Aryan Singh">
+      <p>Aryan Singh</p>
+    </div>
+  </div>
+</body>
+</html>
